@@ -17,7 +17,7 @@ public class CrimeActivity extends FragmentActivity {
         // This code creates and commits a Fragment transaction.
         // Fragment transactions are used to add, remove, detach, or replace
         // fragments in the fragment list. The FragmentManager maintains a
-        // backstack of fragment transactions that we can navigate
+        // back stack of fragment transactions that we can navigate
         if (fragment == null) {
             fragment = new CrimeFragment();
             // Create a new fragment transaction, include one add operation
